@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+.post-card {
+  margin: 1.5rem;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 2px 5px 5px #aaaaaa;
+  border: 1px solid #BFBFBF;
+  /* margin: 20; */
+}
+.post-title {
+  font-size: 15px;
+  color: #282c34;
+  margin: 1rem;
+}
+
+.post-body {
+  font-size: 14px;
+  color: #282c34;
+  margin: 1rem;
+}
+.delete-btn {
+  margin: 1rem;
+  color: rgb(241, 99, 99);
+  margin-left: auto;
+  float: right;
+}
+.header-title {
+  padding-left: 2rem;
+
+  width: 85%;
+  justify-content: center;
+  margin: 20;
+}
+.title-row {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
