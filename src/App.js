@@ -11,7 +11,7 @@ const App = () => {
   useEffect(() => {
     const fetchPost = async () => {
       try {
-        let response = await client.get("?_limit=10");
+        let response = await client.get("?_limit=20");
         setPosts(response.data);
       } catch (error) {
         console.log(error);
