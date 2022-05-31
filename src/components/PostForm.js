@@ -36,24 +36,23 @@ const PostForm = (props) => {
   return (
     <div className={styles.formDiv}>
       <form onSubmit={handleSubmit}>
-        {/* //className="form-container" */}
         <input
           type="text"
           className={styles.inputText}
-          placeholder="Add post title..."
+          placeholder="Title"
           value={title}
           name="title"
           onChange={onChangeTitle}
         />
         <textarea
           type="text"
-          placeholder="Post's Body"
+          placeholder="What's Happening?"
           className={styles.textAreaText}
           value={body}
           name="body"
           onChange={onChangeBody}
         />
-        <button className={styles.inputSubmit}>Add Post</button>
+        <button className={styles.inputSubmit}>Post</button>
       </form>
     </div>
   );

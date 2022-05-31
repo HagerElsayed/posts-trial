@@ -4,49 +4,47 @@
     width: 100%;
     padding-right: 5px;
     padding-left: 10px;
-    border-radius: calc(0.1 * 100px);
+    border-radius: calc(0.08 * 100px);
     border-width: 0px;
     height: 35px;
-    
+    border: 1px solid #dfdfdf;
   }
-  
-  /* .textarea-text::placeholder {
-    /* padding: 10px;  */
-  /* }  */
-  
+
   .textAreaText{
     font-size: 14px;
     font-weight: 300;
     width: 100%;
     padding: 5px;
-    border-radius: calc(0.2 * 100px);
+    border-radius: calc(0.08 * 100px);
     height: 130px;
     margin: 8px 0;
     border-width: 0px;
     resize: none;
     text-indent: 10px;
+    border: 1px solid #dfdfdf;
   
   }
   
   .inputSubmit{
     width: 100%;
-    background-color: #65d6ec;
+    background-color: #221db4;
     color: white;
     padding: 5px;
     margin: 8px;
     border: none;
     cursor: pointer;
     height: 40px;
-    border-radius: calc(0.2 * 100px);
+    border-radius: calc(0.08 * 100px);
   
   }
   
   .formDiv {
     border-radius: 5px;
-    background-color: #f2f2f2;
     padding: 20px;
-    /* width: 50%; */
     display: flex;
     justify-content: center;
-    /* justify-items: center; */ 
+    background-color: rgb(251, 251, 251);
+  }
+  hr.solid {
+    border-top: 3px solid #bbb;
   }

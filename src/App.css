@@ -62,10 +62,10 @@
   color: rgb(241, 99, 99);
   margin-left: auto;
   float: right;
+  cursor: pointer;
 }
 .header-title {
   padding-left: 2rem;
-
   width: 85%;
   justify-content: center;
   margin: 20;
@@ -76,3 +76,10 @@
   flex-direction: row;
 }
 
+.main-container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
